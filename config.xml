@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget 
+	xmlns="http://www.w3.org/ns/widgets"
+	xmlns:gap="http://phonegap.com/ns/1.0"
+	xmlns:rim="http://www.blackberry.com/ns/widgets"
+	id="com.mapsqueak.mapsqueak"
+	version="1.0.0">
+
+	<name>MapSqueak</name>
+
+	<description>
+		MapSqueak 
+	</description>
+
+	<author email="paul@istherea.com">
+		Paul Ayling
+	</author>
+
+
+	<icon src="asset/icon/icon.png" gap:platform="android" gap:role="default" />
+	<icon src="asset/icon/icon.png" gap:platform="webos" gap:role="default" />
+	<icon src="asset/icon/icon.png" gap:platform="winphone" gap:role="default" />
+	<icon src="asset/icon/icon_bb.png" gap:platform="blackberry" />
+	
+	
+	
+	<preference name="fullscreen"  value="true" />
+	<preference name="orientation" value="portrait" />
+
+	<gap:splash src="asset/img/screen-hdpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+	
+
+
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
